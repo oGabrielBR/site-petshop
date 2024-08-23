@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ 
+ .navbar {
+    background-color: #01236d;
+    overflow: hidden;
+ }
+ 
+ .navbar a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+ 
+ }
+ 
+ .navbar a:hover {
+    background-color: #003cff;
+ 
+ }
+ 
+ .logo img {
+    height: auto;
+    width: 150px;
+ }
+ 
+ .search-bar {
+ 
+    flex-grow: 1;
+    margin: 0 20px;
+ 
+ }  
+ 
+ .search-bar input[type="text"] {
+ 
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 10px;
+ 
+ } 
+ 
+ .search-bar input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: nome;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ 
+ .search-bar input[type="submit"]:hover {
+ 
+    background-color: #666;
+ 
+ }
+ 
+ .register-button {
+ 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+ 
+ }
+ 
+ .register-button:hover {
+ 
+    background-color: #007bff;
+ }
+ 
+ 
+ .navbar .menu {
+    display: flex;
+    float: center;
+    justify-content: center;
+ 
+ }
+ 
+ .navbar .menu a {
+    padding: 14px 20px
+ }
+ 
+ .search-bar {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+ 
+ footer {
+    background: #01236d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+ }
+
+ header {
+    background: #fff;
+    color: #fff;
+    text-align: start;
+    padding: 0px 10;
+    position: absolute;
+    width: 100%;
+    top: 0;
+ }
+
+ .banner {
+    width: 70%;
+    height: 1050px;
+    margin: auto;
+    background: url(banner.png) no-repeat center;
+    background-size: contain;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+
+ }
+
