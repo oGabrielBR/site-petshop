@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .navbar {
+    background-color: #01236d;
+    width: 100%;
+    margin-top: auto;
+ }
+ 
+ .navbar .menu {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .navbar a {
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+ }
+ 
+ .navbar a:hover {
+    background-color: #003cff;
+ }
+ 
+ .logo img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    width: 150px;
+ }
+ 
+ .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+ }
+ 
+ .search-bar {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 800px; 
+    height: 0px;
+ }
+ 
+ .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .search-form input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 10px;
+ }
+ 
+ .search-form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ 
+ .search-form input[type="submit"]:hover {
+    background-color: #666;
+ }
+ 
+ .icons-container {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+ }
+ 
+ .register-icon,
+ .cart-icon {
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+ }
+ 
+ footer {
+    background: #01236d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+ }
+
+.sobrenos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.explicação {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique
+}
