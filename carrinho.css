@@ -38,3 +38,12 @@
 .btn-continue:hover {
     background-color: #0056b3;
 }
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-right: 25px;
+}
