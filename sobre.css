@@ -1,0 +1,83 @@
+
+.about-us, .our-mission, .our-values {
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1, .our-mission h2, .our-values h2 {
+    color: #01236d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us p, .our-mission p, .our-values p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.our-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.our-values ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.our-values ul li strong {
+    color: #01236d;
+}
+
+footer {
+    background: #01236d;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.icons-container {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+ }
+ 
+ .register-icon,
+ .cart-icon {
+    padding:5px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: grid;
+ }

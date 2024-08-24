@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #01236d;
+    margin-top: 10px;
+}
+
+.navbar .menu a {
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar .menu a:hover {
+    background-color: #003cff;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h1 {
+    color: #01236d;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; 
+    max-width: 500px;
+}
+
+.service-card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-card h2 {
+    color: #01236d;
+    margin: 20px 0;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background: #01236d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.logo {
+    margin: 0 10px 50px 20px;
+    height: 50px;
+
+}
+
+.icons-container {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+ }
+ 
+ .register-icon,
+ .cart-icon {
+    height: 10px;
+    padding:5px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: grid;
+ }

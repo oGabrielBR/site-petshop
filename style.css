@@ -87,10 +87,10 @@ body {
 
 .register-icon,
 .cart-icon {
-   padding: 5px;
-   margin-left: 40px;
+   padding:5px;
+   margin-left: 30px;
    font-size: 20px;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    display: grid;
 }
 
@@ -102,6 +102,21 @@ footer {
    position: relative;
    width: 100%;
    margin-top: 40px;
+}
+
+.social-icons {
+   margin-top: 10px;
+}
+
+.social-icons a {
+   color: #fff;
+   margin: 0 10px;
+   font-size: 24px;
+   text-decoration: none;
+}
+
+.social-icons a:hover {
+   color: #007bff;
 }
 
 header {
@@ -131,3 +146,146 @@ header {
    margin-bottom: 70px;
 }
 
+/* Estilo da seção de notícias e dicas sobre cuidados com pets */
+.pet-care-news {
+   background-color: #fff;
+   padding: 40px 0;
+}
+
+.pet-care-news .container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.pet-care-news h1 {
+   color: #01236d;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.news-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 20px;
+}
+
+.news-item img {
+   max-width: 300px;
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+.news-content {
+   flex: 1;
+}
+
+.news-content h2 {
+   color: #01236d;
+   margin-bottom: 10px;
+}
+
+.news-content p {
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+.produtos{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   color: #01236d;
+
+}
+
+br{
+   height: 50px;
+}
+
+/* Estilo da seção de avaliações e comentários dos clientes */
+.customer-reviews {
+   background-color: #f4f4f4;
+   padding: 40px 0;
+}
+
+.customer-reviews .container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.customer-reviews h1 {
+   color: #01236d;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.review-form {
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 30px;
+}
+
+.review-form h2 {
+   color: #01236d;
+   margin-bottom: 20px;
+}
+
+.review-form label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.review-form input[type="text"],
+.review-form select,
+.review-form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+
+.review-form input[type="submit"] {
+   background-color: #007bff;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.review-form input[type="submit"]:hover {
+   background-color: #0056b3;
+}
+
+.reviews-list {
+   margin-top: 20px;
+}
+
+.review-item {
+   background: #fff;
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 15px;
+}
+
+.review-item h3 {
+   margin-top: 0;
+   color: #01236d;
+}
+
+.review-item p {
+   font-size: 16px;
+   line-height: 1.6;
+}
