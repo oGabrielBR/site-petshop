@@ -8,6 +8,7 @@ body {
    background-color: #01236d;
    width: 100%;
    margin-top: auto;
+
 }
 
 .navbar .menu {
@@ -125,9 +126,9 @@ header {
 }
 
 .banner {
-   width: 90%;
-   height: 400px;
-   margin: 80px auto;
+   width: 85%;
+   height: 460px;
+   margin: 75px auto;
    background: url(banner.png) no-repeat center;
    background-size: cover;
 }
@@ -141,12 +142,11 @@ header {
    border: #333 solid 5px;
    border-radius: 5px 5px 5px 5px;
    border-width: 2px;
-   -webkit-text-stroke-width: 0.2px; /* largura da borda */
+   -webkit-text-stroke-width: 0.2px;
    -webkit-text-stroke-color: #0199ff;
    margin-bottom: 70px;
 }
 
-/* Estilo da seção de notícias e dicas sobre cuidados com pets */
 .pet-care-news {
    background-color: #fff;
    padding: 40px 0;
@@ -206,7 +206,6 @@ br{
    height: 50px;
 }
 
-/* Estilo da seção de avaliações e comentários dos clientes */
 .customer-reviews {
    background-color: #f4f4f4;
    padding: 40px 0;
