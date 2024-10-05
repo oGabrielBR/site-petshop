@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALM Petshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="cart.js"></script>
+</head>
+<body>
+    <header>
+    
+        <div class="logo">
+            <a href="pagina-inicial.html">
+                <img src="logo.png" alt="Logotipo">
+            </a>
+        </div>
+
+        <div class="search-bar">
+            <form action="#" method="get" class="search-form">
+                <input type="text" name="search" placeholder="Pesquisar">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+
+        <div class="icons-container">
+            <div class="register-icon">
+                <a href="login.html"><i class="fa-solid fa-user" style="color: #01236d;"></i></a>
+            </div>
+    
+            <div class="cart-icon">
+                <a href="carrinho.html"><i class="fa-solid fa-cart-shopping" style="color: #01236d;"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="menu">
+                <a href="pagina-inicial.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="serviços.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="banner">
+        <div class="container">
+        </div>
+    </section>
+
+    <section class="welcome-message">
+        <div class="container">
+            <p>Bem-vindo ao GALM Petshop! Estamos felizes em ter você aqui. Explore nossos produtos e serviços para o seu melhor amigo!</p>
+        </div>
+    </section>
+
+</br>
+
+    <div class="produtos">
+      <h1>Produtos</h1>
+
+    </div>
+
+</br>
+
+    <section class="product-cards" id="1">
+        <div class="card">
+            <img src="ração.jpg" alt="Ração Pedigree Adulto">
+            <div>
+                <h1>Ração Pedigree Adulto</h1>
+                <h2>10kg</h2>
+                <span>R$ 159,90</span>
+                <button onclick="adicionarAoCarrinho('Ração Pedigree Adulto', 159.90)">Comprar</button>
+            </div>
+        </div>
+
+        <div class="card" id="2">
+            <img src="whiskas.jpg" alt="Ração Whiskas Adulto">
+            <div>
+                <h1>Ração Whiskas Adulto</h1>
+                <h2>10kg</h2>
+                <span>R$ 149,90</span>
+                <button onclick="adicionarAoCarrinho('Ração Whiskas Adulto', 149.90)"">Comprar</button>
+            </div>
+        </div>
+
+        <div class="card2" id="3">
+            <img src="https://images.tcdn.com.br/img/img_prod/694926/shampoo_para_cachorro_pelos_escuros_sanol_dog_500ml_361105_1_aa70320321b6d7e45e953657c2786248.jpg" alt="Shampoo Cachorro">
+            <div>
+                <h1>Shampoo para Cachorro Adulto</h1>
+                <h2>500ml</h2>
+                <span>R$ 18,70</span>
+                <button onclick="adicionarAoCarrinho('Shampoo para Cachorro Adulto', 18.70)">Comprar</button>
+            </div>
+        </div>
+
+        <div class="card3" id="4">
+            <img src="shampoo gato.jpg" alt="Shampoo Gato">
+            <div>
+                <h1>Shampoo para Gatos</h1>
+                <h2>500ml</h2>
+                <span>R$ 14,70</span>
+                <button onclick="adicionarAoCarrinho('Shampoo para Gatos', 14.70)">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+    <section class="pet-care-news">
+        <div class="container">
+            <h1>Cuidados com seu Pet</h1>
+            <div class="news-item">
+                <img src="https://paulista.pe.gov.br/site/app/webroot/files/arquivos/231020181517410000000.jpg" alt="Cuidados com Cachorro" width="200">
+                <div class="news-content">
+                    <h2>Dica 1: Cuidados Essenciais com Cachorros</h2>
+                    <p>Manter seu cachorro saudável é essencial para a sua felicidade. Certifique-se de oferecer uma alimentação balanceada, exercícios regulares e consultas veterinárias periódicas.</p>
+                </div>
+            </div>
+            
+            <div class="news-item">
+                <img src="https://www.zooplus.pt/magazine/wp-content/uploads/2020/11/cuidado-do-pelo-768x513.jpeg" alt="Cuidados com Gatos" width="200">
+                <div class="news-content">
+                    <h2>Dica 2: Cuidados Importantes com Gatos</h2>
+                    <p>Gatos também precisam de cuidados especiais. Garanta que seu gato tenha um ambiente estimulante, uma dieta adequada e cuidados com a higiene.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="customer-reviews">
+        <div class="container">
+            <h1>Avaliações dos Clientes</h1>
+            
+            <div class="review-form">
+                <h2>Deixe seu Comentário</h2>
+                <form action="enviar-comentario.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="rating">Avaliação:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 Estrelas</option>
+                        <option value="4">4 Estrelas</option>
+                        <option value="3">3 Estrelas</option>
+                        <option value="2">2 Estrelas</option>
+                        <option value="1">1 Estrela</option>
+                    </select>
+    
+                    <label for="comment">Comentário:</label>
+                    <textarea id="comment" name="comment" rows="5" required></textarea>
+    
+                    <input type="submit" value="Enviar Comentário">
+                </form>
+            </div>
+    
+            <div class="reviews-list">
+                <div class="review-item">
+                    <h3>Maria Silva</h3>
+                    <p><strong>Avaliação:</strong> ★★★★☆</p>
+                    <p>Ótimo atendimento e produtos de qualidade. Meu cachorro adorou a ração!</p>
+                </div>
+    
+                <div class="review-item">
+                    <h3>João Santos</h3>
+                    <p><strong>Avaliação:</strong> ★★★★★</p>
+                    <p>Excelente loja, recomendo para todos que têm pets. O shampoo é maravilhoso!</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2024 GALM Petshop. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://wa.me" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Função para adicionar produto ao carrinho
+        function adicionarAoCarrinho(nome, preco) {
+            // Recupera o carrinho do localStorage ou inicia um carrinho vazio
+            let carrinho = JSON.parse(localStorage.getItem('cartItems')) || [];
+    
+            // Verifica se o produto já existe no carrinho
+            let produtoExistente = carrinho.find(produto => produto.name === nome);
+    
+            if (produtoExistente) {
+                // Se o produto já existir, aumenta a quantidade
+                produtoExistente.quantity += 1;
+            } else {
+                // Se o produto não existir, adiciona como um novo item
+                carrinho.push({
+                    name: nome,
+                    price: preco,
+                    quantity: 1
+                });
+            }
+    
+            // Salva o carrinho atualizado no localStorage
+            localStorage.setItem('cartItems', JSON.stringify(carrinho));
+    
+            alert(`${nome} foi adicionado ao carrinho!`);
+        }
+    </script>
+
+</body>
+</html>

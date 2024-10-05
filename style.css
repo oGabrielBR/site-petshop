@@ -1,0 +1,296 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar {
+   background-color: #01236d;
+   width: 100%;
+   margin-top: 45px;
+   display: grid;
+
+}
+
+.navbar .menu {
+   display: flex;
+   justify-content: center;
+}
+
+.navbar a {
+   display: flex;
+   color: #ffffff;
+   text-align: center;
+   padding: 14px 20px;
+   text-decoration: none;
+}
+
+.navbar a:hover {
+   background-color: #003cff;
+}
+
+.logo img {
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   height: auto;
+   width: 165px;
+   padding: 0 10px;
+}
+
+.logo {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   height: 100px;
+}
+
+.search-bar {
+   display: flex;
+   align-items: left;
+   justify-content: left;
+   float: left;
+   flex-wrap: wrap;
+   margin-top: 45px;
+
+}
+
+.search-form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.search-form input[type="text"] {
+   width: 50%;
+   padding: 8px;
+   font-size: 16px;
+   border: 2px solid #333;
+   border-radius: 10px;
+   display: flex;
+}
+
+.search-form input[type="submit"] {
+   padding: 8px 16px;
+   background-color: #01236d;
+   border: none;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+   display: flex;
+}
+
+.search-form input[type="submit"]:hover {
+   background-color: #007bff;
+   display: flex;
+}
+
+.icons-container {
+   display: flex;
+   align-items: end;
+   justify-content: end;
+}
+
+.register-icon,
+.cart-icon {
+   padding:5px;
+   margin-left: 30px;
+   font-size: 20px;
+   margin-bottom: 15px;
+   display: grid;
+}
+
+footer {
+   background: #01236d;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   position: relative;
+   width: 100%;
+   margin-top: 40px;
+}
+
+.social-icons {
+   margin-top: 10px;
+}
+
+.social-icons a {
+   color: #fff;
+   margin: 0 10px;
+   font-size: 24px;
+   text-decoration: none;
+}
+
+.social-icons a:hover {
+   color: #007bff;
+}
+
+header {
+   background: #fff;
+   width: 100%;
+}
+
+.banner {
+   width: 100%;
+   height: 550px;
+   margin-top: 15px;
+   background: url(banner.png) no-repeat center;
+   background-size: contain;
+}
+
+.welcome-message {
+   text-align: center;
+   margin-top: 100px;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: #ffffff;
+   border: #333 solid 5px;
+   border-radius: 5px 5px 5px 5px;
+   border-width: 2px;
+   -webkit-text-stroke-width: 0.2px;
+   -webkit-text-stroke-color: #0199ff;
+   margin-bottom: 70px;
+}
+
+.pet-care-news {
+   background-color: #fff;
+   padding: 40px 0;
+}
+
+.pet-care-news .container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.pet-care-news h1 {
+   color: #01236d;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.news-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 20px;
+}
+
+.news-item img {
+   max-width: 300px;
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+.news-content {
+   flex: 1;
+}
+
+.news-content h2 {
+   color: #01236d;
+   margin-bottom: 10px;
+}
+
+.news-content p {
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+.produtos{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   color: #01236d;
+
+}
+
+br{
+   height: 50px;
+}
+
+.customer-reviews {
+   background-color: #f4f4f4;
+   padding: 40px 0;
+}
+
+.customer-reviews .container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.customer-reviews h1 {
+   color: #01236d;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.review-form {
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 30px;
+}
+
+.review-form h2 {
+   color: #01236d;
+   margin-bottom: 20px;
+}
+
+.review-form label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.review-form input[type="text"],
+.review-form select,
+.review-form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+
+.review-form input[type="submit"] {
+   background-color: #007bff;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.review-form input[type="submit"]:hover {
+   background-color: #0056b3;
+}
+
+.reviews-list {
+   margin-top: 20px;
+}
+
+.review-item {
+   background: #fff;
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 15px;
+}
+
+.review-item h3 {
+   margin-top: 0;
+   color: #01236d;
+}
+
+.review-item p {
+   font-size: 16px;
+   line-height: 1.6;
+}

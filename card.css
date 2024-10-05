@@ -1,0 +1,195 @@
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 170px;
+    height: 260px;
+    box-shadow: 4px 4px 12px #aaaa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 40%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.card h2 {
+    font-size: 0.9rem;
+    color: #000000aa;
+    margin: 0;
+}
+
+.card span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card button {
+    background-color: #01236d;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #137de8;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.card2 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 170px;
+    height: 260px;
+    box-shadow: 4px 4px 12px #aaaa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card2 img {
+    width: 80%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    height: 46%;
+    border-bottom: 1px solid #ddd;
+}
+
+.card2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card2 h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.card2 h2 {
+    font-size: 0.9rem;
+    color: #000000aa;
+    margin: 0;
+}
+
+.card2 span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card2 button {
+    background-color: #01236d;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card2 button:hover {
+    background-color: #137de8;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.card3 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 170px;
+    height: 260px;
+    box-shadow: 4px 4px 12px #aaaa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card3 img {
+    width: 80%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    height: 54%;
+    border-bottom: 1px solid #ddd;
+}
+
+.card3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card3 h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.card3 h2 {
+    font-size: 0.9rem;
+    color: #000000aa;
+    margin: 0;
+}
+
+.card3 span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card3 button {
+    background-color: #01236d;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card3 button:hover {
+    background-color: #137de8;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center; /* Alinha os cartões horizontalmente no centro */
+    flex-wrap: wrap; /* Permite que os cartões se movam para a linha seguinte se não houver espaço */
+    gap: 100px; /* Espaçamento entre os cartões */
+    padding: 20px; /* Espaçamento interno ao redor dos cartões */
+}
+
+
+
+
