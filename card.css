@@ -13,7 +13,7 @@
 }
 
 .card img {
-    width: 40%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    width: 40%;
     height: auto;
     border-bottom: 1px solid #ddd;
 }
@@ -74,7 +74,7 @@
 }
 
 .card2 img {
-    width: 80%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    width: 80%;
     height: 46%;
     border-bottom: 1px solid #ddd;
 }
@@ -135,7 +135,7 @@
 }
 
 .card3 img {
-    width: 80%; /* Ajusta a imagem para ocupar toda a largura do cartão */
+    width: 80%;
     height: 54%;
     border-bottom: 1px solid #ddd;
 }
@@ -184,10 +184,10 @@
 
 .product-cards {
     display: flex;
-    justify-content: center; /* Alinha os cartões horizontalmente no centro */
-    flex-wrap: wrap; /* Permite que os cartões se movam para a linha seguinte se não houver espaço */
-    gap: 100px; /* Espaçamento entre os cartões */
-    padding: 20px; /* Espaçamento interno ao redor dos cartões */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
 }
 
 

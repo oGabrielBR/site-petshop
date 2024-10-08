@@ -1,4 +1,3 @@
-// Mock data for products (you can replace it with actual API or dynamic data)
 const products = [
     {
         id: 1,
@@ -30,12 +29,10 @@ const products = [
     }
 ];
 
-// Increase quantity of a product
 function loadCart() {
     return JSON.parse(localStorage.getItem('cartItems')) || [];
 }
 
-// Renderizar os produtos no carrinho
 function renderCart() {
     const cartItemsContainer = document.querySelector('.cart-items');
     cartItemsContainer.innerHTML = '';

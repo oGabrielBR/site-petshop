@@ -198,19 +198,13 @@
     </footer>
 
     <script>
-        // Função para adicionar produto ao carrinho
+
         function adicionarAoCarrinho(nome, preco) {
-            // Recupera o carrinho do localStorage ou inicia um carrinho vazio
             let carrinho = JSON.parse(localStorage.getItem('cartItems')) || [];
-    
-            // Verifica se o produto já existe no carrinho
             let produtoExistente = carrinho.find(produto => produto.name === nome);
-    
             if (produtoExistente) {
-                // Se o produto já existir, aumenta a quantidade
                 produtoExistente.quantity += 1;
             } else {
-                // Se o produto não existir, adiciona como um novo item
                 carrinho.push({
                     name: nome,
                     price: preco,
@@ -218,7 +212,6 @@
                 });
             }
     
-            // Salva o carrinho atualizado no localStorage
             localStorage.setItem('cartItems', JSON.stringify(carrinho));
     
             alert(`${nome} foi adicionado ao carrinho!`);
